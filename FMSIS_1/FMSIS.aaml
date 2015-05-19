@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aaml:AvionicModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aaml="http://aaml" xmlns:aaml_core="http://aaml/core" xmi:id="_F_T6IPfwEeSj6Zdc-nVlhg">
+  <functionalArchitecture xmi:id="_F_T6IffwEeSj6Zdc-nVlhg">
+    <avionicFunction xmi:id="_KeWKoPiHEeSj6Zdc-nVlhg" name="Non-volatile Memory Area" ownedElement="_F_T6IffwEeSj6Zdc-nVlhg"/>
+    <avionicFunction xmi:id="_ca6d4PiHEeSj6Zdc-nVlhg" name="Volatile Memory Area" ownedElement="_F_T6IffwEeSj6Zdc-nVlhg"/>
+    <avionicFunction xmi:id="__T__0PiLEeSj6Zdc-nVlhg" name="PUS Service 6" ownedElement="_F_T6IffwEeSj6Zdc-nVlhg"/>
+    <avionicFunction xmi:id="_A_a_0PiMEeSj6Zdc-nVlhg" name="PUS Service 23" ownedElement="_F_T6IffwEeSj6Zdc-nVlhg"/>
+    <avionicFunction xmi:id="_L0JtsPiMEeSj6Zdc-nVlhg" name="Spacewire Interface" ownedElement="_F_T6IffwEeSj6Zdc-nVlhg"/>
+    <avionicFunction xmi:id="_PxOAMPiMEeSj6Zdc-nVlhg" name="MILBUS 1553 Interface" ownedElement="_F_T6IffwEeSj6Zdc-nVlhg"/>
+    <avionicFunction xmi:id="_bR51IPiMEeSj6Zdc-nVlhg" name="CAN Bus Interface" ownedElement="_F_T6IffwEeSj6Zdc-nVlhg"/>
+    <avionicFunction xmi:id="_kNgeMPiMEeSj6Zdc-nVlhg" name="CFDP" ownedElement="_F_T6IffwEeSj6Zdc-nVlhg"/>
+    <avionicFunction xmi:id="_T38vkPiNEeSj6Zdc-nVlhg" name="Store Management System" ownedElement="_F_T6IffwEeSj6Zdc-nVlhg"/>
+    <avionicFunction xmi:id="_Z6p44PiNEeSj6Zdc-nVlhg" name="Store" ownedElement="_F_T6IffwEeSj6Zdc-nVlhg"/>
+    <avionicFunction xmi:id="_hIsz8PiNEeSj6Zdc-nVlhg" name="Data Management System" ownedElement="_F_T6IffwEeSj6Zdc-nVlhg"/>
+    <avionicFunction xmi:id="_tYRn0PiQEeSj6Zdc-nVlhg" name="File Management System" ownedElement="_F_T6IffwEeSj6Zdc-nVlhg"/>
+    <avionicFunction xmi:id="_N9KmoPiiEeSj6Zdc-nVlhg" name="File" ownedElement="_F_T6IffwEeSj6Zdc-nVlhg"/>
+    <avionicFunction xmi:id="_4Q7RwPijEeSj6Zdc-nVlhg" name="File Transfer System" ownedElement="_F_T6IffwEeSj6Zdc-nVlhg"/>
+    <avionicFunction xmi:id="_RMmFIPikEeSj6Zdc-nVlhg" name="Logging" ownedElement="_F_T6IffwEeSj6Zdc-nVlhg"/>
+    <avionicFunction xmi:id="_i4yaEPikEeSj6Zdc-nVlhg" name="Scrubbing" ownedElement="_F_T6IffwEeSj6Zdc-nVlhg"/>
+    <avionicFunction xmi:id="_2sZHcPikEeSj6Zdc-nVlhg" name="Commanding" ownedElement="_F_T6IffwEeSj6Zdc-nVlhg"/>
+  </functionalArchitecture>
+  <logicalArchitecture xmi:id="_F_T6IvfwEeSj6Zdc-nVlhg"/>
+  <physicalArchitecture xmi:id="_F_T6I_fwEeSj6Zdc-nVlhg"/>
+  <dataTypes xmi:id="_F_T6JPfwEeSj6Zdc-nVlhg"/>
+  <spacecraftModes xmi:id="_F_T6JffwEeSj6Zdc-nVlhg"/>
+  <communication xmi:id="_F_T6JvfwEeSj6Zdc-nVlhg">
+    <communicationType xsi:type="aaml_core:Interface" xmi:id="_2pJL4Pi0EeSj6Zdc-nVlhg" name="Spacewire"/>
+    <communicationType xsi:type="aaml_core:Interface" xmi:id="__fjy8Pi0EeSj6Zdc-nVlhg" name="MILBUS 1553"/>
+    <communicationType xsi:type="aaml_core:Interface" xmi:id="_BWyaUPi1EeSj6Zdc-nVlhg" name="CAN Bus"/>
+  </communication>
+  <systemMapping xmi:id="_F_T6J_fwEeSj6Zdc-nVlhg"/>
+</aaml:AvionicModel>

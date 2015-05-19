@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aaml="http://aaml" xmlns:aaml_core="http://aaml/core" xmlns:aaml_extension="http://aaml/extension" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://aaml/core http://aaml#//aaml_core http://aaml/extension http://aaml#//aaml_extension http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_4cMCcPfmEeSo3aQxHWUJig" selectedViews="_t2AX0PfvEeSj6Zdc-nVlhg _t2IToPfvEeSj6Zdc-nVlhg _t2I6sPfvEeSj6Zdc-nVlhg _t2JhwPfvEeSj6Zdc-nVlhg _t2KI0PfvEeSj6Zdc-nVlhg _t2Kv4PfvEeSj6Zdc-nVlhg _t2L-APfvEeSj6Zdc-nVlhg" version="8.1.1">
+  <models xmi:type="aaml:AvionicModel" href="FMSIS.aaml#_F_T6IPfwEeSj6Zdc-nVlhg"/>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_t2AX0PfvEeSj6Zdc-nVlhg" initialized="true">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Structural%20and%20Data%20View']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_t2IToPfvEeSj6Zdc-nVlhg" initialized="true">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Non-Functional%20View']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_t2I6sPfvEeSj6Zdc-nVlhg" initialized="true">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Logical%20View']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_t2JhwPfvEeSj6Zdc-nVlhg" initialized="true">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_yA7qoPi0EeSj6Zdc-nVlhg" name="Interface Diagram">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_yA7qovi0EeSj6Zdc-nVlhg" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_yA7qo_i0EeSj6Zdc-nVlhg" type="Sirius" element="_yA7qoPi0EeSj6Zdc-nVlhg" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_2reHIPi0EeSj6Zdc-nVlhg" type="2003" element="_2qIDUPi0EeSj6Zdc-nVlhg">
+            <children xmi:type="notation:Node" xmi:id="_2reuMPi0EeSj6Zdc-nVlhg" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="_2rfVQPi0EeSj6Zdc-nVlhg" type="7004">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_2rfVQfi0EeSj6Zdc-nVlhg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_2rfVQvi0EeSj6Zdc-nVlhg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2reHIfi0EeSj6Zdc-nVlhg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2reHIvi0EeSj6Zdc-nVlhg" x="120" y="60"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__f5xMPi0EeSj6Zdc-nVlhg" type="2003" element="__fkaAPi0EeSj6Zdc-nVlhg">
+            <children xmi:type="notation:Node" xmi:id="__f6YQPi0EeSj6Zdc-nVlhg" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="__f6YQfi0EeSj6Zdc-nVlhg" type="7004">
+              <styles xmi:type="notation:SortingStyle" xmi:id="__f6YQvi0EeSj6Zdc-nVlhg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="__f6YQ_i0EeSj6Zdc-nVlhg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="__f5xMfi0EeSj6Zdc-nVlhg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__f5xMvi0EeSj6Zdc-nVlhg" x="120" y="144"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_BXFVQPi1EeSj6Zdc-nVlhg" type="2003" element="_BWzocPi1EeSj6Zdc-nVlhg">
+            <children xmi:type="notation:Node" xmi:id="_BXF8UPi1EeSj6Zdc-nVlhg" type="5007"/>
+            <children xmi:type="notation:Node" xmi:id="_BXF8Ufi1EeSj6Zdc-nVlhg" type="7004">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_BXF8Uvi1EeSj6Zdc-nVlhg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_BXF8U_i1EeSj6Zdc-nVlhg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_BXFVQfi1EeSj6Zdc-nVlhg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BXFVQvi1EeSj6Zdc-nVlhg" x="119" y="228"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_yA7qpPi0EeSj6Zdc-nVlhg"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_2qIDUPi0EeSj6Zdc-nVlhg" name="&lt;&lt;Interface>> &#xA;Spacewire">
+        <target xmi:type="aaml_core:Interface" href="FMSIS.aaml#_2pJL4Pi0EeSj6Zdc-nVlhg"/>
+        <semanticElements xmi:type="aaml_core:Interface" href="FMSIS.aaml#_2pJL4Pi0EeSj6Zdc-nVlhg"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_2qP_IPi0EeSj6Zdc-nVlhg" showIcon="false">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_2qP_Ifi0EeSj6Zdc-nVlhg"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Communication%20View']/@ownedRepresentations[name='Interface%20Diagram']/@defaultLayer/@containerMappings[name='Interface']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_2qP_Ivi0EeSj6Zdc-nVlhg"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_2qP_I_i0EeSj6Zdc-nVlhg" red="114" green="159" blue="207"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_2qP_JPi0EeSj6Zdc-nVlhg" red="114" green="159" blue="207"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Communication%20View']/@ownedRepresentations[name='Interface%20Diagram']/@defaultLayer/@containerMappings[name='Interface']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="__fkaAPi0EeSj6Zdc-nVlhg" name="&lt;&lt;Interface>> &#xA;MILBUS 1553">
+        <target xmi:type="aaml_core:Interface" href="FMSIS.aaml#__fjy8Pi0EeSj6Zdc-nVlhg"/>
+        <semanticElements xmi:type="aaml_core:Interface" href="FMSIS.aaml#__fjy8Pi0EeSj6Zdc-nVlhg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="__floIPi0EeSj6Zdc-nVlhg" showIcon="false">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="__floIfi0EeSj6Zdc-nVlhg"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Communication%20View']/@ownedRepresentations[name='Interface%20Diagram']/@defaultLayer/@containerMappings[name='Interface']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="__floIvi0EeSj6Zdc-nVlhg"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="__floI_i0EeSj6Zdc-nVlhg" red="114" green="159" blue="207"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="__floJPi0EeSj6Zdc-nVlhg" red="114" green="159" blue="207"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Communication%20View']/@ownedRepresentations[name='Interface%20Diagram']/@defaultLayer/@containerMappings[name='Interface']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_BWzocPi1EeSj6Zdc-nVlhg" name="&lt;&lt;Interface>> &#xA;CAN Bus">
+        <target xmi:type="aaml_core:Interface" href="FMSIS.aaml#_BWyaUPi1EeSj6Zdc-nVlhg"/>
+        <semanticElements xmi:type="aaml_core:Interface" href="FMSIS.aaml#_BWyaUPi1EeSj6Zdc-nVlhg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_BW0PgPi1EeSj6Zdc-nVlhg" showIcon="false">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_BW0Pgfi1EeSj6Zdc-nVlhg"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Communication%20View']/@ownedRepresentations[name='Interface%20Diagram']/@defaultLayer/@containerMappings[name='Interface']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_BW0Pgvi1EeSj6Zdc-nVlhg"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_BW0Pg_i1EeSj6Zdc-nVlhg" red="114" green="159" blue="207"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_BW0PhPi1EeSj6Zdc-nVlhg" red="114" green="159" blue="207"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Communication%20View']/@ownedRepresentations[name='Interface%20Diagram']/@defaultLayer/@containerMappings[name='Interface']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Communication%20View']/@ownedRepresentations[name='Interface%20Diagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_yA7qofi0EeSj6Zdc-nVlhg"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Communication%20View']/@ownedRepresentations[name='Interface%20Diagram']/@defaultLayer"/>
+      <target xmi:type="aaml_extension:Communication" href="FMSIS.aaml#_F_T6JvfwEeSj6Zdc-nVlhg"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Communication%20View']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_t2KI0PfvEeSj6Zdc-nVlhg" initialized="true">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Physical%20View']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_t2Kv4PfvEeSj6Zdc-nVlhg" initialized="true">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Mapping%20View']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_t2L-APfvEeSj6Zdc-nVlhg" initialized="true">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_AxqpMPfzEeSj6Zdc-nVlhg" name="Data Storage System (DSS)">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_AxrQQffzEeSj6Zdc-nVlhg" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_AxrQQvfzEeSj6Zdc-nVlhg" type="Sirius" element="_AxqpMPfzEeSj6Zdc-nVlhg" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_KegisPiHEeSj6Zdc-nVlhg" type="2002" element="_KeX_0PiHEeSj6Zdc-nVlhg">
+            <children xmi:type="notation:Node" xmi:id="_KeiX4PiHEeSj6Zdc-nVlhg" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_Kei-8PiHEeSj6Zdc-nVlhg" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_Kei-8fiHEeSj6Zdc-nVlhg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_Kei-8viHEeSj6Zdc-nVlhg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_KehJwPiHEeSj6Zdc-nVlhg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KehJwfiHEeSj6Zdc-nVlhg" x="60" y="48"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_cbIgUPiHEeSj6Zdc-nVlhg" type="2002" element="_ca86IPiHEeSj6Zdc-nVlhg">
+            <children xmi:type="notation:Node" xmi:id="_cbJucPiHEeSj6Zdc-nVlhg" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_cbKVgPiHEeSj6Zdc-nVlhg" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_cbKVgfiHEeSj6Zdc-nVlhg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_cbKVgviHEeSj6Zdc-nVlhg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_cbIgUfiHEeSj6Zdc-nVlhg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cbIgUviHEeSj6Zdc-nVlhg" x="60" y="144"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="__UJw0PiLEeSj6Zdc-nVlhg" type="2002" element="__UCcEPiLEeSj6Zdc-nVlhg">
+            <children xmi:type="notation:Node" xmi:id="__UKX4PiLEeSj6Zdc-nVlhg" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="__UKX4fiLEeSj6Zdc-nVlhg" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="__UKX4viLEeSj6Zdc-nVlhg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="__UKX4_iLEeSj6Zdc-nVlhg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="__UJw0fiLEeSj6Zdc-nVlhg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__UJw0viLEeSj6Zdc-nVlhg" x="252" y="48"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_A_lX4PiMEeSj6Zdc-nVlhg" type="2002" element="_A_bm4PiMEeSj6Zdc-nVlhg">
+            <children xmi:type="notation:Node" xmi:id="_A_nNEPiMEeSj6Zdc-nVlhg" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_A_nNEfiMEeSj6Zdc-nVlhg" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_A_nNEviMEeSj6Zdc-nVlhg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_A_nNE_iMEeSj6Zdc-nVlhg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_A_l-8PiMEeSj6Zdc-nVlhg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A_l-8fiMEeSj6Zdc-nVlhg" x="252" y="144"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_L0XJEPiMEeSj6Zdc-nVlhg" type="2002" element="_L0K70PiMEeSj6Zdc-nVlhg">
+            <children xmi:type="notation:Node" xmi:id="_L0YXMPiMEeSj6Zdc-nVlhg" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_L0YXMfiMEeSj6Zdc-nVlhg" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_L0YXMviMEeSj6Zdc-nVlhg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_L0YXM_iMEeSj6Zdc-nVlhg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_L0XJEfiMEeSj6Zdc-nVlhg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L0XJEviMEeSj6Zdc-nVlhg" x="444" y="48"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_PymgQPiMEeSj6Zdc-nVlhg" type="2002" element="_PycIMPiMEeSj6Zdc-nVlhg">
+            <children xmi:type="notation:Node" xmi:id="_PyqxsPiMEeSj6Zdc-nVlhg" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_PyqxsfiMEeSj6Zdc-nVlhg" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_PyqxsviMEeSj6Zdc-nVlhg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_Pyqxs_iMEeSj6Zdc-nVlhg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_PymgQfiMEeSj6Zdc-nVlhg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PymgQviMEeSj6Zdc-nVlhg" x="444" y="144"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_bSPzYPiMEeSj6Zdc-nVlhg" type="2002" element="_bR7DQPiMEeSj6Zdc-nVlhg">
+            <children xmi:type="notation:Node" xmi:id="_bSQacPiMEeSj6Zdc-nVlhg" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_bSQacfiMEeSj6Zdc-nVlhg" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_bSQacviMEeSj6Zdc-nVlhg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_bSQac_iMEeSj6Zdc-nVlhg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_bSPzYfiMEeSj6Zdc-nVlhg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bSPzYviMEeSj6Zdc-nVlhg" x="444" y="240"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_kN-YQPiMEeSj6Zdc-nVlhg" type="2002" element="_kNhFQPiMEeSj6Zdc-nVlhg">
+            <children xmi:type="notation:Node" xmi:id="_kN-_UPiMEeSj6Zdc-nVlhg" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_kN-_UfiMEeSj6Zdc-nVlhg" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_kN-_UviMEeSj6Zdc-nVlhg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_kN-_U_iMEeSj6Zdc-nVlhg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_kN-YQfiMEeSj6Zdc-nVlhg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kN-YQviMEeSj6Zdc-nVlhg" x="636" y="48"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_T4T78PiNEeSj6Zdc-nVlhg" type="2002" element="_T3_L0PiNEeSj6Zdc-nVlhg">
+            <children xmi:type="notation:Node" xmi:id="_T4UjAPiNEeSj6Zdc-nVlhg" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_T4UjAfiNEeSj6Zdc-nVlhg" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_T4UjAviNEeSj6Zdc-nVlhg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_T4UjA_iNEeSj6Zdc-nVlhg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_T4T78fiNEeSj6Zdc-nVlhg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T4T78viNEeSj6Zdc-nVlhg" x="1020" y="48"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Z6x0sPiNEeSj6Zdc-nVlhg" type="2002" element="_Z6qf8PiNEeSj6Zdc-nVlhg">
+            <children xmi:type="notation:Node" xmi:id="_Z6ybwPiNEeSj6Zdc-nVlhg" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_Z6ybwfiNEeSj6Zdc-nVlhg" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_Z6ybwviNEeSj6Zdc-nVlhg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_Z6ybw_iNEeSj6Zdc-nVlhg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Z6x0sfiNEeSj6Zdc-nVlhg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z6x0sviNEeSj6Zdc-nVlhg" x="1020" y="144"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_hI_H0PiNEeSj6Zdc-nVlhg" type="2002" element="_hIuCEPiNEeSj6Zdc-nVlhg">
+            <children xmi:type="notation:Node" xmi:id="_hJHDoPiNEeSj6Zdc-nVlhg" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_hJHDofiNEeSj6Zdc-nVlhg" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_hJHDoviNEeSj6Zdc-nVlhg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_hJHDo_iNEeSj6Zdc-nVlhg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_hI_H0fiNEeSj6Zdc-nVlhg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hI_H0viNEeSj6Zdc-nVlhg" x="828" y="48"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_tYlJ0PiQEeSj6Zdc-nVlhg" type="2002" element="_tYS18PiQEeSj6Zdc-nVlhg">
+            <children xmi:type="notation:Node" xmi:id="_tYmX8PiQEeSj6Zdc-nVlhg" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_tYmX8fiQEeSj6Zdc-nVlhg" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_tYm_APiQEeSj6Zdc-nVlhg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_tYm_AfiQEeSj6Zdc-nVlhg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_tYlJ0fiQEeSj6Zdc-nVlhg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tYlJ0viQEeSj6Zdc-nVlhg" x="828" y="144"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_N9kPQPiiEeSj6Zdc-nVlhg" type="2002" element="_N9L0wPiiEeSj6Zdc-nVlhg">
+            <children xmi:type="notation:Node" xmi:id="_N9ldYPiiEeSj6Zdc-nVlhg" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_N9ldYfiiEeSj6Zdc-nVlhg" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_N9ldYviiEeSj6Zdc-nVlhg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_N9ldY_iiEeSj6Zdc-nVlhg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_N9kPQfiiEeSj6Zdc-nVlhg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_N9kPQviiEeSj6Zdc-nVlhg" x="828" y="336"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_4RiVwPijEeSj6Zdc-nVlhg" type="2002" element="_4Q8f4PijEeSj6Zdc-nVlhg">
+            <children xmi:type="notation:Node" xmi:id="_4Ri80PijEeSj6Zdc-nVlhg" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_4Ri80fijEeSj6Zdc-nVlhg" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_4Ri80vijEeSj6Zdc-nVlhg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_4Ri80_ijEeSj6Zdc-nVlhg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_4RiVwfijEeSj6Zdc-nVlhg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4RiVwvijEeSj6Zdc-nVlhg" x="828" y="240"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_RNEmQPikEeSj6Zdc-nVlhg" type="2002" element="_RMnTQPikEeSj6Zdc-nVlhg">
+            <children xmi:type="notation:Node" xmi:id="_RNFNUPikEeSj6Zdc-nVlhg" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_RNFNUfikEeSj6Zdc-nVlhg" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_RNFNUvikEeSj6Zdc-nVlhg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_RNFNU_ikEeSj6Zdc-nVlhg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_RNEmQfikEeSj6Zdc-nVlhg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RNEmQvikEeSj6Zdc-nVlhg" x="1212" y="48"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_i5MpwPikEeSj6Zdc-nVlhg" type="2002" element="_i4zoMPikEeSj6Zdc-nVlhg">
+            <children xmi:type="notation:Node" xmi:id="_i5Mpw_ikEeSj6Zdc-nVlhg" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_i5NQ0PikEeSj6Zdc-nVlhg" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_i5NQ0fikEeSj6Zdc-nVlhg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_i5NQ0vikEeSj6Zdc-nVlhg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_i5MpwfikEeSj6Zdc-nVlhg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i5MpwvikEeSj6Zdc-nVlhg" x="1212" y="144"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2swT0PikEeSj6Zdc-nVlhg" type="2002" element="_2saVkPikEeSj6Zdc-nVlhg">
+            <children xmi:type="notation:Node" xmi:id="_2sw64PikEeSj6Zdc-nVlhg" type="5006"/>
+            <children xmi:type="notation:Node" xmi:id="_2sxh8PikEeSj6Zdc-nVlhg" type="7001">
+              <styles xmi:type="notation:SortingStyle" xmi:id="_2sxh8fikEeSj6Zdc-nVlhg"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_2sxh8vikEeSj6Zdc-nVlhg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2swT0fikEeSj6Zdc-nVlhg" fontName="Segoe UI" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2swT0vikEeSj6Zdc-nVlhg" x="1212" y="240"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_AxrQQ_fzEeSj6Zdc-nVlhg"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_KeX_0PiHEeSj6Zdc-nVlhg" name="&lt;&lt;Avionic Function>> &#xA;Non-volatile Memory Area">
+        <target xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_KeWKoPiHEeSj6Zdc-nVlhg"/>
+        <semanticElements xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_KeWKoPiHEeSj6Zdc-nVlhg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_KeZN8PiHEeSj6Zdc-nVlhg" showIcon="false">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_KeZN8fiHEeSj6Zdc-nVlhg"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_KeZN8viHEeSj6Zdc-nVlhg"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_KeZN8_iHEeSj6Zdc-nVlhg" red="156" green="12" blue="12"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_KeZN9PiHEeSj6Zdc-nVlhg" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_ca86IPiHEeSj6Zdc-nVlhg" name="&lt;&lt;Avionic Function>> &#xA;Volatile Memory Area">
+        <target xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_ca6d4PiHEeSj6Zdc-nVlhg"/>
+        <semanticElements xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_ca6d4PiHEeSj6Zdc-nVlhg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_ca-vUPiHEeSj6Zdc-nVlhg" showIcon="false">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_ca-vUfiHEeSj6Zdc-nVlhg"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_ca-vUviHEeSj6Zdc-nVlhg"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_ca-vU_iHEeSj6Zdc-nVlhg" red="156" green="12" blue="12"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_ca-vVPiHEeSj6Zdc-nVlhg" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="__UCcEPiLEeSj6Zdc-nVlhg" name="&lt;&lt;Avionic Function>> &#xA;PUS Service 6">
+        <target xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#__T__0PiLEeSj6Zdc-nVlhg"/>
+        <semanticElements xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#__T__0PiLEeSj6Zdc-nVlhg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="__UDqMPiLEeSj6Zdc-nVlhg" showIcon="false">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="__UDqMfiLEeSj6Zdc-nVlhg"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="__UDqMviLEeSj6Zdc-nVlhg"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="__UDqM_iLEeSj6Zdc-nVlhg" red="156" green="12" blue="12"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="__UDqNPiLEeSj6Zdc-nVlhg" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_A_bm4PiMEeSj6Zdc-nVlhg" name="&lt;&lt;Avionic Function>> &#xA;PUS Service 23">
+        <target xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_A_a_0PiMEeSj6Zdc-nVlhg"/>
+        <semanticElements xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_A_a_0PiMEeSj6Zdc-nVlhg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_A_c1APiMEeSj6Zdc-nVlhg" showIcon="false">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_A_c1AfiMEeSj6Zdc-nVlhg"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_A_c1AviMEeSj6Zdc-nVlhg"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_A_c1A_iMEeSj6Zdc-nVlhg" red="156" green="12" blue="12"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_A_c1BPiMEeSj6Zdc-nVlhg" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_L0K70PiMEeSj6Zdc-nVlhg" name="&lt;&lt;Avionic Function>> &#xA;Spacewire Interface">
+        <target xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_L0JtsPiMEeSj6Zdc-nVlhg"/>
+        <semanticElements xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_L0JtsPiMEeSj6Zdc-nVlhg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_L0MJ8PiMEeSj6Zdc-nVlhg" showIcon="false">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_L0MJ8fiMEeSj6Zdc-nVlhg"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_L0MJ8viMEeSj6Zdc-nVlhg"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_L0MJ8_iMEeSj6Zdc-nVlhg" red="156" green="12" blue="12"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_L0MJ9PiMEeSj6Zdc-nVlhg" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_PycIMPiMEeSj6Zdc-nVlhg" name="&lt;&lt;Avionic Function>> &#xA;MILBUS 1553 Interface">
+        <target xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_PxOAMPiMEeSj6Zdc-nVlhg"/>
+        <semanticElements xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_PxOAMPiMEeSj6Zdc-nVlhg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_PycvQPiMEeSj6Zdc-nVlhg" showIcon="false">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_PycvQfiMEeSj6Zdc-nVlhg"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_PycvQviMEeSj6Zdc-nVlhg"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_PycvQ_iMEeSj6Zdc-nVlhg" red="156" green="12" blue="12"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_PycvRPiMEeSj6Zdc-nVlhg" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_bR7DQPiMEeSj6Zdc-nVlhg" name="&lt;&lt;Avionic Function>> &#xA;CAN Bus Interface">
+        <target xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_bR51IPiMEeSj6Zdc-nVlhg"/>
+        <semanticElements xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_bR51IPiMEeSj6Zdc-nVlhg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_bR8RYPiMEeSj6Zdc-nVlhg" showIcon="false">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_bR8RYfiMEeSj6Zdc-nVlhg"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_bR8RYviMEeSj6Zdc-nVlhg"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_bR8RY_iMEeSj6Zdc-nVlhg" red="156" green="12" blue="12"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_bR8RZPiMEeSj6Zdc-nVlhg" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_kNhFQPiMEeSj6Zdc-nVlhg" name="&lt;&lt;Avionic Function>> &#xA;CFDP">
+        <target xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_kNgeMPiMEeSj6Zdc-nVlhg"/>
+        <semanticElements xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_kNgeMPiMEeSj6Zdc-nVlhg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_kNiTYPiMEeSj6Zdc-nVlhg" showIcon="false">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_kNiTYfiMEeSj6Zdc-nVlhg"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_kNiTYviMEeSj6Zdc-nVlhg"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_kNiTY_iMEeSj6Zdc-nVlhg" red="156" green="12" blue="12"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_kNiTZPiMEeSj6Zdc-nVlhg" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_T3_L0PiNEeSj6Zdc-nVlhg" name="&lt;&lt;Avionic Function>> &#xA;Store Management System">
+        <target xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_T38vkPiNEeSj6Zdc-nVlhg"/>
+        <semanticElements xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_T38vkPiNEeSj6Zdc-nVlhg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_T4AZ8PiNEeSj6Zdc-nVlhg" showIcon="false">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_T4AZ8fiNEeSj6Zdc-nVlhg"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_T4AZ8viNEeSj6Zdc-nVlhg"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_T4AZ8_iNEeSj6Zdc-nVlhg" red="156" green="12" blue="12"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_T4AZ9PiNEeSj6Zdc-nVlhg" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_Z6qf8PiNEeSj6Zdc-nVlhg" name="&lt;&lt;Avionic Function>> &#xA;Store">
+        <target xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_Z6p44PiNEeSj6Zdc-nVlhg"/>
+        <semanticElements xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_Z6p44PiNEeSj6Zdc-nVlhg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_Z6rHAPiNEeSj6Zdc-nVlhg" showIcon="false">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_Z6rHAfiNEeSj6Zdc-nVlhg"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_Z6rHAviNEeSj6Zdc-nVlhg"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_Z6rHA_iNEeSj6Zdc-nVlhg" red="156" green="12" blue="12"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_Z6rHBPiNEeSj6Zdc-nVlhg" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_hIuCEPiNEeSj6Zdc-nVlhg" name="&lt;&lt;Avionic Function>> &#xA;Data Management System">
+        <target xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_hIsz8PiNEeSj6Zdc-nVlhg"/>
+        <semanticElements xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_hIsz8PiNEeSj6Zdc-nVlhg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_hIvQMPiNEeSj6Zdc-nVlhg" showIcon="false">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_hIvQMfiNEeSj6Zdc-nVlhg"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_hIvQMviNEeSj6Zdc-nVlhg"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_hIvQM_iNEeSj6Zdc-nVlhg" red="156" green="12" blue="12"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_hIvQNPiNEeSj6Zdc-nVlhg" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_tYS18PiQEeSj6Zdc-nVlhg" name="&lt;&lt;Avionic Function>> &#xA;File Management System">
+        <target xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_tYRn0PiQEeSj6Zdc-nVlhg"/>
+        <semanticElements xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_tYRn0PiQEeSj6Zdc-nVlhg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_tYTdAPiQEeSj6Zdc-nVlhg" showIcon="false">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_tYTdAfiQEeSj6Zdc-nVlhg"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_tYTdAviQEeSj6Zdc-nVlhg"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_tYTdA_iQEeSj6Zdc-nVlhg" red="156" green="12" blue="12"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_tYTdBPiQEeSj6Zdc-nVlhg" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_N9L0wPiiEeSj6Zdc-nVlhg" name="&lt;&lt;Avionic Function>> &#xA;File">
+        <target xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_N9KmoPiiEeSj6Zdc-nVlhg"/>
+        <semanticElements xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_N9KmoPiiEeSj6Zdc-nVlhg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_N9NC4PiiEeSj6Zdc-nVlhg" showIcon="false">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_N9NC4fiiEeSj6Zdc-nVlhg"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_N9NC4viiEeSj6Zdc-nVlhg"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_N9NC4_iiEeSj6Zdc-nVlhg" red="156" green="12" blue="12"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_N9NC5PiiEeSj6Zdc-nVlhg" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_4Q8f4PijEeSj6Zdc-nVlhg" name="&lt;&lt;Avionic Function>> &#xA;File Transfer System">
+        <target xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_4Q7RwPijEeSj6Zdc-nVlhg"/>
+        <semanticElements xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_4Q7RwPijEeSj6Zdc-nVlhg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_4Q9uAPijEeSj6Zdc-nVlhg" showIcon="false">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_4Q9uAfijEeSj6Zdc-nVlhg"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_4Q9uAvijEeSj6Zdc-nVlhg"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_4Q9uA_ijEeSj6Zdc-nVlhg" red="156" green="12" blue="12"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_4Q9uBPijEeSj6Zdc-nVlhg" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_RMnTQPikEeSj6Zdc-nVlhg" name="&lt;&lt;Avionic Function>> &#xA;Logging">
+        <target xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_RMmFIPikEeSj6Zdc-nVlhg"/>
+        <semanticElements xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_RMmFIPikEeSj6Zdc-nVlhg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_RMn6UPikEeSj6Zdc-nVlhg" showIcon="false">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_RMn6UfikEeSj6Zdc-nVlhg"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_RMn6UvikEeSj6Zdc-nVlhg"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_RMn6U_ikEeSj6Zdc-nVlhg" red="156" green="12" blue="12"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_RMn6VPikEeSj6Zdc-nVlhg" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_i4zoMPikEeSj6Zdc-nVlhg" name="&lt;&lt;Avionic Function>> &#xA;Scrubbing">
+        <target xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_i4yaEPikEeSj6Zdc-nVlhg"/>
+        <semanticElements xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_i4yaEPikEeSj6Zdc-nVlhg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_i40PQPikEeSj6Zdc-nVlhg" showIcon="false">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_i40PQfikEeSj6Zdc-nVlhg"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_i40PQvikEeSj6Zdc-nVlhg"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_i40PQ_ikEeSj6Zdc-nVlhg" red="156" green="12" blue="12"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_i40PRPikEeSj6Zdc-nVlhg" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_2saVkPikEeSj6Zdc-nVlhg" name="&lt;&lt;Avionic Function>> &#xA;Commanding">
+        <target xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_2sZHcPikEeSj6Zdc-nVlhg"/>
+        <semanticElements xmi:type="aaml_extension:AvionicFunction" href="FMSIS.aaml#_2sZHcPikEeSj6Zdc-nVlhg"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_2sa8oPikEeSj6Zdc-nVlhg" showIcon="false">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_2sa8ofikEeSj6Zdc-nVlhg"/>
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_2sa8ovikEeSj6Zdc-nVlhg"/>
+          <backgroundColor xmi:type="viewpoint:RGBValues" xmi:id="_2sa8o_ikEeSj6Zdc-nVlhg" red="156" green="12" blue="12"/>
+          <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_2sa8pPikEeSj6Zdc-nVlhg" red="246" green="139" blue="139"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer/@containerMappings[name='Avionic%20Function']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_AxrQQPfzEeSj6Zdc-nVlhg"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']/@ownedRepresentations[name='Avionics%20Functional%20Diagram']/@defaultLayer"/>
+      <target xmi:type="aaml_extension:AvionicsFunctionalArchitecture" href="FMSIS.aaml#_F_T6IffwEeSj6Zdc-nVlhg"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/com.gmv.aaml.odesign.editor/description/aaml.odesign#//@ownedViewpoints[name='Avionics%20Functional%20View']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>
